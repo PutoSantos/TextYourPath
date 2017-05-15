@@ -1,0 +1,94 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Amita');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.MenuColor
+{
+	background-color: #7f0200;
+}
+.btnColor
+{
+	background-color: #400100;
+	color: gray;
+}
+.logotipo
+{
+	font-family: 'Amita', cursive;
+	font-size: 32px;
+	color: white;
+	font-weight: bold;
+	text-align: left;
+}
+.logs
+{
+	text-align: right;
+}
+.logs input
+{
+	border: 0;
+	width: 30%;
+	margin: 1%;
+}
+.Table
+{
+	display: table;
+}
+.tableCel
+{
+	display: table-cell;
+	width: 33%
+}
+/*BODY*/
+.body
+{
+	padding: 2%;
+	text-align: center;
+}
+
+/*Footer*/
+footer
+{
+	position: fixed;
+	bottom: 0;
+	display: table;
+	background-color: black;
+	color: white;
+	opacity: 0.7;
+	width: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+footer ul li
+{
+	padding: 2%;
+	list-style-type: none;
+	display: inline;
+}
+
+footer ul a
+{
+	text-decoration: none;
+	color: white;
+}
+
+footer ul a:hover
+{
+	color: orange;
+}
+
+.f_left
+{
+	text-align: left;
+}
+.f_dir
+{
+	text-align: right;
+}
